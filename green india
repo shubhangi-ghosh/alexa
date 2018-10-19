@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "inspire me",
+            "invocationName": "green india",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -19,13 +19,20 @@
                     "name": "factIntent",
                     "slots": [],
                     "samples": [
-                        "quotes",
-                        "tell me about motivational quotes",
-                        "motivational quotes",
-                        "tell me motivational quotes",
+                        "green india",
+                        "tell me a green india",
                         "tell me",
-                        "life quotes"
+                        "tell me green india",
+                        "yes",
+                        "fact",
+                        "green india",
+                        "green india fact",
+                        "new fact"
                     ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
                 }
             ],
             "types": []
