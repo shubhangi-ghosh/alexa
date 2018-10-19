@@ -1,0 +1,34 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "inspire me",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "factIntent",
+                    "slots": [],
+                    "samples": [
+                        "quotes",
+                        "tell me about motivational quotes",
+                        "motivational quotes",
+                        "tell me motivational quotes",
+                        "tell me",
+                        "life quotes"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
